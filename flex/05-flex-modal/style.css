@@ -20,6 +20,38 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+}
+
+.message-box {
+  display: flex;
+  padding-right: 8px;
+  flex-direction: column;
+  text-align: justify;
+}
+
+.upper-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottom-line {
+  display: flex;
+  flex-direction: row; 
+  justify-content: flex-start;
+  gap: 12px;
+  padding-top: 12px;
+}
+
+.header {
+  font-size: 20px;
+  margin-bottom: 8px;
+  margin-top: 0px;
 }
 
 .icon {
@@ -33,6 +65,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  flex: 0 0 auto;
+  margin-right: 12px;
 }
 
 .close-button {
@@ -46,6 +81,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  margin-bottom: 8px;
 }
 
 button {
